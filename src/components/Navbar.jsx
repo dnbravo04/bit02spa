@@ -10,14 +10,14 @@ export const Navbar = () => {
         <li className="mr-6">
           <Link
             className="text-neutral-200 hover:text-gray-800 hover:bg-neutral-400 transition-all hover:transition-all p-2 rounded-md text-xl"
-            to="/"
-          >
+            to="/bit02spa/"
+            >
             Inicio
           </Link>
         </li>
         <li className="mr-6">
           <Link           className="text-neutral-200 hover:text-gray-800 hover:bg-neutral-400 transition-all hover:transition-all p-2 rounded-md text-xl"
-            to="/AboutUs"
+            to="bit02spa/AboutUs"
           >
             Acerca del Proyecto
           </Link>
@@ -25,7 +25,7 @@ export const Navbar = () => {
         <li className="mr-6">
           <Link
             className="text-neutral-200 hover:text-gray-800 hover:bg-neutral-400 transition-all hover:transition-all p-2 rounded-md text-xl"
-            to="/Preview"
+            to="bit02spa/Preview"
           >
             MWS Preview
           </Link>
